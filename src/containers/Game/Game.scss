@@ -1,0 +1,58 @@
+$textColor: #fff;
+
+.game {
+  height: calc(100vh - 5em);
+  margin: 1em;
+}
+
+.gameHeader {
+  padding: 0.5em;
+  position: absolute;
+  top: 0;
+  right: 1em;
+
+  dd,
+  dt {
+    display: inline;
+    font-style: italic;
+  }
+
+  dd {
+    padding-right: 1em;
+    color: $textColor;
+  }
+
+  dt {
+    color: $textColor;
+  }
+}
+
+.gameOver {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-30%);
+  color: $textColor;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 100%;
+}
+
+@media only screen
+  and (max-width: 768px) {
+  .gameHeader {
+    left: 0;
+    top: 1.25em;
+  }
+}
+
+@media only screen
+  and (max-width: 375px) {
+  .game {
+    margin-top: 2em;
+  }
+}

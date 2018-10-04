@@ -1,0 +1,30 @@
+$text-color: #000;
+$bg-color: #fff;
+
+.menu {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-30%);
+  padding: 4em;
+  background-color: $bg-color;
+  border-radius: 10px;
+
+  header {
+    h2 {
+      color: $text-color;
+      font-weight: 800;
+      margin-bottom: 1.5em;
+    }
+  }
+}
+
+.menuItems {
+  list-style-type: none;
+}
+
+.menuItem {
+  color: $text-color;
+  cursor: pointer;
+  margin-bottom: 1em;
+}

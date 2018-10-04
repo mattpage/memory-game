@@ -1,0 +1,88 @@
+.card {
+  // flex: 0 1 calc(7.6923076923% - 0.5em);
+  flex: 0 1 calc(12% - 0.5em);
+  margin-bottom: 0.5em;
+  min-width: 135px;
+  min-height: 150px;
+  max-height: 225px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  box-shadow: 0 0 10px rgba(#000, 0.5);
+  cursor: pointer;
+}
+
+.selected {
+  position: relative;
+  background-color: #fff;
+
+  span {
+    width: 48px;
+    height: 48px;
+    font-size: 48px;
+    position: absolute;
+    top: calc(50% - 24px);
+    left: calc(50% - 24px);
+  }
+}
+
+// CSS3 patterns from
+// http://lea.verou.me/css3patterns
+.patternBradyBunch {
+  background-image:
+    radial-gradient(
+      closest-side,
+      transparent 0%,
+      transparent 75%,
+      #b6cc66 76%,
+      #b6cc66 85%,
+      #edffdb 86%,
+      #edffdb 94%,
+      #fff 95%,
+      #fff 103%,
+      #d9e6a7 104%,
+      #d9e6a7 112%,
+      #798b3c 113%,
+      #798b3c 121%,
+      #fff 122%,
+      #fff 130%,
+      #e0ead7 131%,
+      #e0ead7 140%
+    ),
+    radial-gradient(
+      closest-side,
+      transparent 0%,
+      transparent 75%,
+      #b6cc66 76%,
+      #b6cc66 85%,
+      #edffdb 86%,
+      #edffdb 94%,
+      #fff 95%,
+      #fff 103%,
+      #d9e6a7 104%,
+      #d9e6a7 112%,
+      #798b3c 113%,
+      #798b3c 121%,
+      #fff 122%,
+      #fff 130%,
+      #e0ead7 131%,
+      #e0ead7 140%
+    );
+  background-size: 110px 110px;
+  background-color: #c8d3a7;
+  background-position: 0 0, 55px 55px;
+}
+
+.patternMadras {
+  background-color: hsl(34, 53%, 82%);
+  background-image:
+    repeating-linear-gradient(45deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px, hsla(197, 62%, 11%, 0.5) 10px, hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px, hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px, hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px, hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 120px, hsla(197, 62%, 11%, 0.5) 120px, hsla(197, 62%, 11%, 0.5) 140px),
+    repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px, hsla(197, 62%, 11%, 0.5) 10px, hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px, hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px, hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px, hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 140px, hsla(197, 62%, 11%, 0.5) 140px, hsla(197, 62%, 11%, 0.5) 160px);
+}
+
+.patternWaves {
+  background:
+    radial-gradient(circle at 100% 50%, transparent 20%, rgba(255, 255, 255, 0.3) 21%, rgba(255, 255, 255, 0.3) 34%, transparent 35%, transparent),
+    radial-gradient(circle at 0% 50%, transparent 20%, rgba(255, 255, 255, 0.3) 21%, rgba(255, 255, 255, 0.3) 34%, transparent 35%, transparent) 0 -50px;
+  background-color: slategray;
+  background-size: 75px 100px;
+}
