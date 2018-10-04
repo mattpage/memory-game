@@ -30,6 +30,6 @@ The purpose is to simplify importing a components/containers exports and provide
 to a component, or container.
 
 ## Resources
-[reselect](https://github.com/reduxjs/reselect)
-[redux](https://redux.js.org/)
-[redux-sagas](https://github.com/redux-saga/redux-saga)
+* [reselect](https://github.com/reduxjs/reselect)
+* [redux](https://redux.js.org/)
+* [redux-sagas](https://github.com/redux-saga/redux-saga)
