@@ -25,9 +25,8 @@ It handles matches and mismatches and ends the game when all the cards are selec
 I wrote a lot of tests. You should check them out, especially the saga tests.
 They help clarify what is exactly going on there.
 
-The use of index files was not consistent. The App component/container had one, but others did not.
 I've created index files for each component/container.
-The purpose was to simplify importing a components/containers exports and provide a `public interface` 
+The purpose is to simplify importing a components/containers exports and provide a `public interface` 
 to a component, or container.
 
 ## Resources
